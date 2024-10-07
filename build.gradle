@@ -182,6 +182,7 @@ subprojects {
         filter {
             excludeTestsMatching "*AkkaTest"
             setFailOnNoMatchingTests(false)
+
         }
     }
 }
